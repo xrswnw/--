@@ -1,0 +1,20 @@
+<view>
+<van-cell-group>
+	<van-field value="{{ value }}" autosize="{ maxHeight: 200, minHeight: 50 }" placeholder="请提供你的宝贵意见"
+		border="{{ false }}" bind:change="input1" />
+
+</van-cell-group>
+
+</view>
+<text class="" selectable="false" space="false" decode="false">
+	1.发布信息需先登录
+	2.若信息包含图片，请等待图片上传成功
+	3.请诸位遵守法律法规，不要发布违规信息
+</text>
+<button class="default" plain="true" bindtap="click">
+反馈
+</button>
+<button class="default" plain="true" type="warn" open-type="contact">
+客服
+</button>
+  

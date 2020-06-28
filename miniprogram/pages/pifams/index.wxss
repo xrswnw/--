@@ -1,0 +1,66 @@
+.c {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-between
+}
+.im {
+	height: 160rpx;
+	width: 33%;
+	display: flex;
+	align-content: space-between;
+
+
+
+}
+.icon1 {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+
+
+
+}
+.xx {
+	justify-content: flex-start;
+	display: flex;
+	flex: 2;
+	flex-flow: row wrap;
+	align-content: space-around;
+
+	border-bottom: 1px solid #70bcf6;
+}
+.ic {
+	display: flex;
+	flex: 8;
+	flex-direction: row;
+	justify-content: flex-end;
+
+
+
+}
+.img {
+	display: flex;
+	height: 200rpx;
+	width: 25%;
+	flex-flow: row wrap;
+	align-content: space-around;
+}
+.mp {
+
+	border: 1px solid black
+}
+.tou {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: start
+}
+.t {
+	display: flex;
+	font-size: small;
+	flex-direction: row;
+	align-content: flex-end;
+	margin: 5px 5px 5px 5px;
+}

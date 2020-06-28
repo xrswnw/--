@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+      "van-button": "../../miniprogram_npm/vant-weapp/button/index",
+      "van-cell": "../../miniprogram_npm/vant-weapp/cell/index",
+      "van-icon": "../../miniprogram_npm/vant-weapp/icon/index",
+      "van-tab": "../../miniprogram_npm/vant-weapp/tab/index",
+      "van-tabs": "../../miniprogram_npm/vant-weapp/tabs/index",
+      "van-notice-bar": "../../miniprogram_npm/vant-weapp/notice-bar/index",
+      "van-divider": "../../miniprogram_npm/vant-weapp/divider/index"
+  }
+}

@@ -1,0 +1,60 @@
+<view class="photo" style="height: 100%">
+
+	<swiper circular="ture" autoplay interval="5000" duration="500" indicator-dots>
+		<swiper-item>
+			<image src="{{png0}}" style="width: 100%;height:100%;"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="{{png1}}" style="width:100%;height:100%;"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="{{png2}}" style="width: 100%;height: 100%;"></image>
+		</swiper-item>
+		</swiper>
+</view>
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+	
+<van-tabs active="{{0}}" bind:change="onChange">
+	<van-tab title="最新入驻">
+<view bindtap="ru" class="shangjia" hover-class="none" hover-stop-propagation="false">
+<image style="width: 150rpx;height: 150rpx;"
+	src="cloud://xueran-obmuk.7875-xueran-obmuk-1300913211/管理/微信图片_20200605214732.jpg"
+	mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+</image>
+<view class="t">
+<view class="t0">
+<view class="t1">专业卖狗 </view>
+<view class="t2">电话:***********</view>
+</view>
+<view class="t3" hover-class="none" hover-stop-propagation="false">西湖处，古榕旁</view>
+</view>
+</view>
+
+
+
+
+
+
+	</van-tab>
+	<van-tab title="品质商家">
+		<view class="shangjia" hover-class="none" hover-stop-propagation="false">
+			<image style="width: 150rpx;height: 150rpx;" src="{{png1}}"
+				mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+			</image>
+			<view class="t">
+				<view class="t0">
+					<view class="t1">仁福钢筋 </view>
+					<view class="t2">电话:13912747770</view>
+				</view>
+				<view class="t3" hover-class="none" hover-stop-propagation="false">
+					盛泽镇坛秋小庙桥9号
+
+				</view>
+			</view>
+		</view>
+	</van-tab>
+	
+	
+</van-tabs>
+</view>

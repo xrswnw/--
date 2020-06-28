@@ -1,0 +1,226 @@
+
+<view class="min">
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" show-action bind:search="onSearch" bind:cancel="onCancel" />
+<view class="zhu">
+<text class="dian" >专业卖狗</text>
+<view class="shou">
+
+<image bindtap="chakan1" style="width: 200rpx;height: 200rpx;"
+	src="cloud://xueran-obmuk.7875-xueran-obmuk-1300913211/管理/微信图片_20200605214732.jpg"
+	mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+
+
+
+</view></view></view> 
+<view bindtap="lunbo" class="" hover-class="none" hover-stop-propagation="false">
+	<swiper circular="ture" autoplay interval="5000" duration="500" indicator-dots>
+	   <swiper-item ><image style="height: 100%; width: 100%;" class="" src="{{s10.m1}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+		   
+	   </image> </swiper-item>
+	   <swiper-item>
+	   	<image class="" src="{{s10.m2}}" style=" height: 100%; width: 100%;" mode="aspectFit|aspectFill|widthFix"
+	   		lazy-load="false"
+	   		binderror=""
+	   		bindload="">
+
+	   	</image>
+	   </swiper-item>
+	   <swiper-item>
+	   	<image class="" src="{{s10.m3}}" style=" height: 100%; width: 100%;" mode="aspectFit|aspectFill|widthFix"
+	   		lazy-load="false"
+	   		binderror=""
+	   		bindload="">
+
+	   	</image>
+	   </swiper-item>
+	   <swiper-item>
+	   	<image class="" src="{{s10.m4}}" style="  height: 100%;width: 100%;" mode="aspectFit|aspectFill|widthFix"
+	   		lazy-load="false"
+	   		binderror=""
+	   		bindload="">
+
+	   	</image>
+	   </swiper-item>
+	</swiper>
+</view>
+
+<van-tabs active="{{ 0 }}" bind:change="onChange">
+	<van-tab title="卖场首页">
+<view hidden="{{m0}}">
+<van-card num="1" desc="{{s1.ms}}" price="{{s1.money}}" title="{{s1.name}}" thumb="{{s1.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput1">修改</van-button>
+		</view>
+</van-card></view>
+<view hidden="{{m1}}">
+<van-card num="1" desc="{{s2.ms}}" price="{{s2.money}}" title="{{s2.name}}" thumb="{{s2.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput2">修改</van-button>
+</view>
+ </van-card></view>
+<view hidden="{{m2}}">
+<van-card num="1" desc="{{s3.ms}}" price="{{s3.money}}" title="{{s3.name}}" thumb="{{s3.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput3">修改</van-button>
+</view>
+</van-card></view>
+<view hidden="{{m3}}">
+	<van-card num="1" desc="{{s4.ms}}" price="{{s4.money}}" title="{{s4.name}}" thumb="{{s4.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput4">修改</van-button>
+</view>
+	</van-card>
+</view>
+
+<view hidden="{{m4}}">
+<van-card num="1" desc="{{s5.ms}}" price="{{s5.money}}" title="{{s5.name}}" thumb="{{s5.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput5">修改</van-button>
+</view>
+</van-card></view>
+<view hidden="{{m5}}">
+<van-card num="1" desc="{{s6.ms}}" price="{{s6.money}}" title="{{s6.name}}" thumb="{{s6.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput6">修改</van-button>
+</view>
+</van-card></view>
+<view hidden="{{m6}}">
+<van-card desc="{{s7.ms}}" num="1" price="{{s7.money}}" title="{{s7.name}}" thumb="{{s7.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput7">修改</van-button>
+</view>
+</van-card></view>
+<view hidden="{{m7}}">
+<van-card num="1" desc="{{s8.ms}}" price="{{s8.money}}" title="{{s8.name}}" thumb="{{s8.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput8">修改</van-button>
+</view>
+</van-card></view>
+<view hidden="{{m8}}">
+<van-card num="1" desc="{{s9.ms}}" price="{{s9.money}}" title="{{s9.name}}" thumb="{{s9.image}}">
+<view hidden="{{hi}}" slot="footer">
+	<van-button size="mini" bind:click="modalinput9">修改</van-button>
+</view>
+</van-card></view>
+</van-tab><van-tab title="全部商品">
+		<van-tabs active="{{ 0 }}" bind:change="onChange">
+			<van-tab title="综合">暂无商品 </van-tab>
+			<van-tab title="价格">暂无商品 </van-tab>
+			<van-tab title="销量">暂无商品 </van-tab>
+             <van-tab title="新品">暂无商品 </van-tab>
+		</van-tabs>
+	</van-tab>
+	<van-tab title="营销活动"></van-tab>
+	
+</van-tabs>
+
+
+<modal id="modal" hidden="{{hiddenmodalput1}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm1">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+
+	<input type='text' placeholder="物品：" bindinput="input10" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input11" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input12" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput2}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm2">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input20" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input21" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input22" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput3}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm3">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input30" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input31" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input32" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput4}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm4">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input40" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input41" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input42" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput5}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm5">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input50" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input51" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input52" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput6}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm6">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input60" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input61" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input62" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput7}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm7">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input70" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input71" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input72" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput8}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm8">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input80" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input81" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input82" auto-focus />
+
+</modal>
+<modal id="modal" hidden="{{hiddenmodalput9}}" title="预约信息" confirm-text="提交" cancel-text="取消" bindcancel="cancel"
+	bindconfirm="confirm9">
+	<image bindtap="xuanze" style="width: 150rpx;height: 150rpx;" src="{{ms}}" mode="aspectFit|aspectFill|widthFix"
+		lazy-load="false" binderror="" bindload="">
+
+	</image>
+	<input type='text' placeholder="物品：" bindinput="input90" auto-focus />
+
+	<input type='text' placeholder="价格：" bindinput="input91" auto-focus />
+	<input type='text' placeholder="描述：" bindinput="input92" auto-focus />
+
+</modal>

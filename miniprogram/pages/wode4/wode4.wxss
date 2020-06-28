@@ -1,0 +1,20 @@
+.pp{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: lightgreen;
+}
+
+
+.ppp {
+	padding: 35rpx 45rpx;
+	font-size: 30rpx;
+	display: inline-block;
+
+
+
+}
+
+.ppp.active {
+	border-bottom: 5rpx solid red;
+}

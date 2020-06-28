@@ -1,0 +1,28 @@
+.yes{
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+}
+
+.tubiao0 {
+	display: flex;
+	width: 100%;
+
+	justify-content: space-between;
+
+}
+.shili{
+ width: 100%;
+
+}
+.p{
+	width: 80rpx;
+	height:80rpx;
+	display: flex;
+	justify-content: space-between;
+	padding: 15rpx;
+}/* miniprogram/pages/index3/index3.wxss */
+.tiaoli{
+font-size: large;
+	color: brown;
+}

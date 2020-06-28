@@ -1,0 +1,61 @@
+<view class="c">
+
+	<button size="{{mini}}" bindtap="s">
+		最新消息
+	</button>
+	
+</view>
+
+
+<view wx:for='{{xx}}' wx:if="{{index<60}}" wx:key="key">
+
+	<view class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{item.tou}}'></image>
+		<view style="font-size: small;">
+
+			{{item.name}}</view>
+			<view class="ic">
+				<v-book number="{{item.num}}" />
+
+
+				<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{item.num}}" class=" icon1"
+					src="../../image/num.jpg">
+
+				</image>
+			</view>
+
+		</view>
+
+		{{item.massage}}
+
+		<view class="xx" hover-class="none" hover-stop-propagation="false">
+			<image class="img" data-text='{{item.image[0]}}' wx:if="{{item.image[0] != null}}" bindtap="yulan"
+				src="{{item.image[0]}}"></image>
+			<image class="img" data-text='{{item.image[1]}}' wx:if="{{item.image[1] != null}}" bindtap="yulan"
+				src="{{item.image[1]}}"></image>
+			<image class="img" data-text='{{item.image[2]}}' wx:if="{{item.image[2] != null}}" bindtap="yulan"
+				src="{{item.image[2]}}"></image>
+			<image class="img" wx:if="{{item.image[3] != null}}" data-text='{{item.image[3]}}' bindtap="yulan"
+				src="{{item.image[3]}}"></image>
+			<image class="img" wx:if="{{item.image[4] != null}}" data-text='{{item.image[4]}}' bindtap="yulan"
+				src="{{item.image[4]}}"></image>
+			<image class="img" wx:if="{{item.image[5] != null}}" data-text='{{item.image[5]}}' bindtap="yulan"
+				src="{{item.image[5]}}"></image>
+			<image class="img" wx:if="{{item.image[6] != null}}" data-text='{{item.image[6]}}' bindtap="yulan"
+				src="{{item.image[6]}}"></image>
+			<image class="img" wx:if="{{item.image[7] != null}}" data-text='{{item.image[7]}}' bindtap="yulan"
+				src="{{item.image[7]}}"></image>
+			<image class="img" wx:if="{{item.image[8] != null}}" data-text='{{item.image[8]}}' bindtap="yulan"
+				src="{{item.image[8]}}"></image>
+
+		</view>
+
+	<view class="t">
+		<text>{{item.add}} {{item.createTime}} </text>
+
+	</view>
+	</view>
+
+</view>
+

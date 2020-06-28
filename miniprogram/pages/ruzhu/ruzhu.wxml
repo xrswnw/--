@@ -1,0 +1,40 @@
+<view class="" hover-class="none" hover-stop-propagation="false">
+	
+	<van-cell-group>
+		<van-field value="{{ username }}" required clearable bind:change="onChange0"  placeholder="请输入你的门名称"
+			bind:click-icon="onClickIcon" />
+
+		<van-field value="{{ password }}"  bind:change="onChange1" placeholder="请输入你的门店类型" required
+			border="{{ false }}" />
+	</van-cell-group>
+</view>
+<view class="tupian">
+	上传门店图标</view>
+	<image bindtap="xuanze" src="{{im}}" style="width:200rpx;height: 200rpx;">
+</image>
+<view class="" >
+	<van-cell-group>
+	<van-field value="{{ username }}" required clearable bind:change="onChange2"  placeholder="请输入你名字"bind:click-icon="onClickIcon" />
+
+	<van-field value="{{ password }}" bind:change="onChange3" placeholder="请输入你电话" required border="{{ false }}" />
+	<van-field value="{{ password }}" bind:change="onChange4" placeholder="门店所在地" required border="{{ false }}" />
+</van-cell-group>
+</view>
+
+
+<view>
+	入驻时间
+</view>
+<view class="time">
+<van-button bind:click="mon0" round type="info" color="linear-gradient(to right, #4bb0ff, #6149f6)">一个月</van-button>
+<van-button bind:click="mon1" round type="info" color="linear-gradient(to right, #4bb0ff, #6149f6)">三个月</van-button>
+<van-button bind:click="mon2" round type="info" color="linear-gradient(to right, #4bb0ff, #6149f6)">六个月</van-button>
+</view>
+
+
+<van-submit-bar price="{{money}}" button-text="确认入驻" bind:submit="onClickButton" tip="{{ true }}">
+	
+	<view slot="tip">
+		商家入驻预计审核1-3天，请耐心等待 
+	</view>
+</van-submit-bar>

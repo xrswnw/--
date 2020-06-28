@@ -1,0 +1,10 @@
+.tupian{
+	display: flex;
+	font-size: small;
+	color: brown;
+}
+.time{
+ 
+	display: flex;
+	justify-content: space-between;
+}

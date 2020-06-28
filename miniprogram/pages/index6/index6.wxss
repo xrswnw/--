@@ -1,0 +1,107 @@
+.yang{
+
+	display: flex;
+	align-items: center;
+}
+.yang1{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 20rpx 10rpx 25rpx 10rpx;
+	border-color: white;
+
+}
+.Scancode {
+	display: flex;
+	
+	 position: fixed;
+	 bottom: 0;
+		width: 100%;
+	
+	 justify-content: center;
+	 
+ }
+ 
+ .Scancode1 {
+	 
+	 width: 50rpx;
+	 height: 50rpx;
+ 
+ 
+	 
+ }
+.yang2{
+display: flex;
+justify-content: space-between;
+background-color: lightgreen;
+flex-wrap: wrap;
+}
+.img{
+	display: flex;
+	justify-content: center;
+	padding: 6rpx;
+}
+.img2{
+	height: 140rpx;
+	width: 140rpx;
+	display: flex;
+
+	
+	
+}
+.tubiao{
+	display: flex;
+	justify-content: space-between;
+	background-color:#FFFFFF;
+	padding: 10rpx;
+}
+.userhead{
+ height: 50px;
+ width: 50px;
+ border-radius: 25px;
+ display: flex;
+ justify-content: start;
+ }
+ .image1{
+	 display: flex;
+align-items: center
+ }
+.pai{
+	display:flex;
+flex-direction:column ;
+align-items: center;
+
+}
+image{
+	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70rpx;
+	height: 70rpx;
+
+}
+.q3{
+	display: flex;
+	justify-items: space-between;
+	border: 1px solid #E8E8E8;
+	margin: 20rpx 10rpx 25rpx 10rpx;
+	border-color: white;
+	border-style: solid;
+	box-shadow:3px 3px 4px 4px #DDDDDD;
+}
+.q1{
+ display: flex;
+ flex: 8;
+ justify-content: start;
+
+
+}
+.q2 {
+	display: flex;
+	flex:2;
+	justify-content: flex-end;
+
+
+}

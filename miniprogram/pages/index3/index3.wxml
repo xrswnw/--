@@ -1,0 +1,71 @@
+
+<button >我是小店，入驻微视角苏州盛泽智慧平台
+</button>
+
+<action-sheet hidden="{{actionSheetHidden}}" bindchange="listenerActionSheet">
+    <action-sheet-item> <button bindtap="click0">求职</button> </action-sheet-item>
+    <action-sheet-item>
+      <button bindtap="click01">招聘</button>
+    </action-sheet-item><action-sheet-cancel>取消</action-sheet-cancel>
+  </action-sheet>
+  <action-sheet hidden="{{actionSheetHidden1}}" bindchange="listenerActionSheet1">
+    <action-sheet-item> <button bindtap="click1">车找人</button> </action-sheet-item>
+    <action-sheet-item>
+      <button bindtap="click11">人找车</button>
+    </action-sheet-item>
+    <action-sheet-cancel>取消</action-sheet-cancel>
+  </action-sheet>
+   <action-sheet hidden="{{actionSheetHidden2}}" bindchange="listenerActionSheet2">
+     <action-sheet-item> <button bindtap="click2">租售</button> </action-sheet-item>
+     <action-sheet-item>
+       <button bindtap="click21">求购</button>
+     </action-sheet-item>
+     <action-sheet-cancel>取消</action-sheet-cancel>
+   </action-sheet>
+   
+   <action-sheet hidden="{{actionSheetHidden3}}" bindchange="listenerActionSheet3">
+     <action-sheet-item> <button bindtap="click3">寻人启事</button> </action-sheet-item>
+     <action-sheet-item><button bindtap="click31">寻物启事</button></action-sheet-item>
+      <action-sheet-item><button bindtap="click32">失物招领</button></action-sheet-item>
+     <action-sheet-cancel>取消</action-sheet-cancel>
+   </action-sheet>
+   
+  <van-grid>
+     <van-grid-item
+       icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7Ib2*h*05iPlL07kMjlrR*gN2za3QYZwUFdSQMYfyHOeNRhb5kdjiCA*7*PaiwdvTFw!!/mnull&bo=VABUAFQAVAADByI!&rf=photolist&t=5"
+       text="{{ming[0]}}" bind:click="jueze" />
+  
+     <van-grid-item
+       icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IUSc5VFqFVtL8p4LXOb1zDt4.6s0SLHcK.e2Z3h4W1Iq5WtmKS1Ph8i3eiz91fzHxg!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+       text="{{ming[1]}}" bind:click="jueze3" />
+     <van-grid-item
+       icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7ITJG6.mNGzhr23DuonLZScewcrDlagybW4QgZqSmEHec.nufvj8AwW166uyHOtQAgA!!/mnull&bo=VABUAFQAVAADByI!&rf=photolist&t=5"
+       text="{{ming[2]}}" url="../ershou/zu" />
+     <van-grid-item
+       icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IdWZkcAhLzNJi43dIGgPp4xsqlt.p.T4B9CvYuy97tCP05XIVOYa*MiyiYcBjjHf0A!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+       text="{{ming[3]}}" url="../pifa/fabu" />
+       <van-grid-item
+         icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IesrlSo0*UJ9EHqqYbChaZjPO4NrAL*9fat1w7aZqRv4mV.qpicY0VnGBd7GVXuF.Q!!/b&bo=OAA4ADgAOAADByI!&rf=viewer_4"
+         text="{{ming[4]}}" bind:click="jueze1" />
+     <van-grid-item
+         icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IfbbNXKAsvndqvKADtqElJcpmssD0O2xZmHHutNX7.6JWagBu.9EkAIadzMFSnHu4Q!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+         text="{{ming[5]}}" bind:click="jueze2" />
+       <van-grid-item
+         icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IXItIfF*4NyfipEQ7TfwLh*EL1jlQdSpytnPuKMa*Dg5Q458T*AD9dpWUSqYgW2Pjw!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+         text="{{ming[6]}}" url="../jiaju/fabu" />
+       <van-grid-item
+         icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IfcSKNiBXNPpy6IFTjV0jk2FVsOVOZOoU.bqSqylWXMACwcAugEAhXZihtjPz19LQA!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+         text="{{ming[7]}}" url="../shangwu/fabu" />
+  
+  
+  
+  
+  
+      </van-grid>
+      <text   class="tiaoli" selectable="false" space="false" decode="ture">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为进一步加强信息化建设相关工作的信息发布管理，确保信息发布真实、准确、及时、安全。
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为加强涉密及敏感信息管理，严禁任何涉密及敏感信息在互联网发布。
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下列信息严禁在信息化处网站上发布：带密级的文件，对上级机关的请示报告，涉及国家秘密、商业秘密、个人隐私的相关信息，不适合公开的内部信息，法律、法规规定不予公开的其他信息。
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本办法自发布之日起施行。综合部负责解释。
+      </text>
+        

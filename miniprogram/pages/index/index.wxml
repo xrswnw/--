@@ -1,0 +1,7 @@
+<button bindtap="upload"> 上传图片</button>
+<image class="" src="{{index0}} "  style="width:100%"    mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+  
+</image>
+<button bindtap="Video">上传视频</button>
+<view hidden="{{tur}}">
+<video src="{{url2}}" style="width:100%"> </video></view>

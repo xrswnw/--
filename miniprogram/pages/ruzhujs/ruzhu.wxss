@@ -1,0 +1,41 @@
+/* pages/ruzhujs/ruzhu.wxss */
+.shangjia{
+
+	border-bottom: 3px solid #70bcf6;
+	display: flex;
+	 padding: 10rpx;
+}
+.t{
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-direction: column;
+}
+.t0 {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-direction:row;
+}
+.t1{
+	font-size: small;
+	display: flex;
+	color: rgb(8, 12, 235);
+  justify-content: flex-start;
+   padding: 10rpx;
+}
+.t2 {
+	font-size: small;
+	display: flex;
+	color: rgb(235, 8, 8);
+	justify-content: flex-start;
+	padding: 10rpx;
+}
+.t3 {
+	font-size: small;
+	display: flex;
+	color: rgb(235, 8, 8);
+	justify-content: flex-start;
+	align-content: flex-start;
+	
+}

@@ -1,0 +1,1238 @@
+
+<view>
+
+	<van-notice-bar backgroundColor="#FFFFFF" color="#FF0000" text="{{mag[0].massage}}"
+		left-icon="//img.yzcdn.cn/public_files/2017/8/10/6af5b7168eed548100d9041f07b7c616.png" />
+</view>
+<view class="photo" style="height: 100%">
+
+	<swiper circular="ture" autoplay interval="5000" duration="500" indicator-dots>
+		<swiper-item>
+			<image src="{{ png0}}" style="width: 100%;height:100%;"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="{{png1}}" style="width:100%;height:100%;"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="{{png2}}" style="width: 100%;height: 100%;"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="{{png3}}" style="width: 100%;height: 100%;"></image>
+		</swiper-item>
+
+	</swiper>
+</view>
+  <van-grid>
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7Ib2*h*05iPlL07kMjlrR*gN2za3QYZwUFdSQMYfyHOeNRhb5kdjiCA*7*PaiwdvTFw!!/mnull&bo=VABUAFQAVAADByI!&rf=photolist&t=5"
+  		text="{{ming[0]}}"url="../qiuzhims/index" />
+
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IUSc5VFqFVtL8p4LXOb1zDt4.6s0SLHcK.e2Z3h4W1Iq5WtmKS1Ph8i3eiz91fzHxg!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+  		text="{{ming[1]}}" url="../shenghuoms/index" />
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7ITJG6.mNGzhr23DuonLZScewcrDlagybW4QgZqSmEHec.nufvj8AwW166uyHOtQAgA!!/mnull&bo=VABUAFQAVAADByI!&rf=photolist&t=5"
+  		text="{{ming[2]}}" url="../ershoums/index" />
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IdWZkcAhLzNJi43dIGgPp4xsqlt.p.T4B9CvYuy97tCP05XIVOYa*MiyiYcBjjHf0A!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+  		text="{{ming[3]}}" url="../pifams/index" />
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IesrlSo0*UJ9EHqqYbChaZjPO4NrAL*9fat1w7aZqRv4mV.qpicY0VnGBd7GVXuF.Q!!/b&bo=OAA4ADgAOAADByI!&rf=viewer_4"
+  		text="{{ming[4]}}" url="../shunfengms/index" />
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IfbbNXKAsvndqvKADtqElJcpmssD0O2xZmHHutNX7.6JWagBu.9EkAIadzMFSnHu4Q!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+  		text="{{ming[5]}}" url="../fangwums/index" />
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IXItIfF*4NyfipEQ7TfwLh*EL1jlQdSpytnPuKMa*Dg5Q458T*AD9dpWUSqYgW2Pjw!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+  		text="{{ming[6]}}"url="../jiajums/index" />
+  	<van-grid-item
+  		icon="http://m.qpic.cn/psc?/V13nJmRk3bUuvH/JZQc4JZanlGW.3H8xAS7IfcSKNiBXNPpy6IFTjV0jk2FVsOVOZOoU.bqSqylWXMACwcAugEAhXZihtjPz19LQA!!/mnull&bo=OAA4ADgAOAADByI!&rf=photolist&t=5"
+  		text="{{ming[7]}}" url="../shangwums/index"/>
+
+  </van-grid>
+
+<view class="mo">
+	<navigator  url="../logs/logs" hover-class="navigator-hover" open-type="navigate">
+		<image src="../../image/后台系统.png" style="height:80%;width: 40px;" class="me"></image>
+		</navigator>
+		 <text class="text1" selectable="false" space="false" decode="false">
+		浏览量 ：<text style="color:green"> 1557</text> 发布：<text style="color:green">250</text> 商家：<text
+			style="color:green">2</text>
+			</text>
+		
+			  
+		
+		  
+</view>
+
+
+
+<view class="q1" >
+	<navigator class="q2"  url="../index1/index1" >
+		 最新入著	</navigator>
+	<navigator class="q3" url="../index1/index1">
+
+	
+
+		更多→</navigator>
+	  
+</view>
+<view class="ruzhu" >
+<image data-text="{{png0}}"
+	src="{{png0}}"  bindtap="yulan"
+	style="height:150rpx;width:30%;"></image>
+  <image data-text="{{png1}}"
+	src="{{png1}}"  bindtap="yulan"
+	style="height:150rpx;width:30%;"></image></view>
+<view>
+<van-tabs active="{{0}}" >
+	<van-tab title="最新消息">
+
+	<view class="tiao" hover-class="none" hover-stop-propagation="false">
+	
+		<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+			<view class="xx">
+				<image class="tou" src='{{xx[0].tou}}'></image>
+				<view>
+					<view style="font-size: small;">{{xx[0].name}}</view>
+					<view class="biaoshi">{{xx[0].biaoshi}}</view>
+				</view>
+				<view class="ic">
+					<v-book number="{{xx[0].num}}" />
+					<view>
+						<button data-text='{{xx[0]}}' open-type="share">分享</button></view>
+					<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[0].num}}" class=" icon1"
+						src="../../image/po.jpg">
+					</image>
+				</view>
+			</view>
+			<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+					data-text='{{xx[0].massage}}' selectable="true">{{xx[0].massage}}</text>
+			</view>
+			<view class="xx" data-text='{{xx[0].image}}' hover-class="none" hover-stop-propagation="false">
+				<image class="img" data-text='{{xx[0].image[0]}}' wx:if="{{xx[0].image[0] != null}}" bindtap="yulan"
+					src="{{xx[0].image[0]}}"></image>
+				<image class="img" data-text='{{xx[0].image[1]}}' wx:if="{{xx[0].image[1] != null}}" bindtap="yulan"
+					src="{{xx[0].image[1]}}"></image>
+				<image class="img" data-text='{{xx[0].image[2]}}' wx:if="{{xx[0].image[2] != null}}" bindtap="yulan"
+					src="{{xx[0].image[2]}}"></image>
+				<image class="img" wx:if="{{xx[0].image[3] != null}}" data-text='{{xx[0].image[3]}}' bindtap="yulan"
+					src="{{xx[0].image[3]}}"></image>
+				<image class="img" wx:if="{{xx[0].image[4] != null}}" data-text='{{xx[0].image[4]}}' bindtap="yulan"
+					src="{{xx[0].image[4]}}"></image>
+				<image class="img" wx:if="{{xx[0].image[5] != null}}" data-text='{{xx[0].image[5]}}' bindtap="yulan"
+					src="{{xx[0].image[5]}}"></image>
+				<image class="img" wx:if="{{xx[0].image[6] != null}}" data-text='{{xx[0].image[6]}}' bindtap="yulan"
+					src="{{xx[0].image[6]}}"></image>
+				<image class="img" wx:if="{{xx[0].image[7] != null}}" data-text='{{xx[0].image[7]}}' bindtap="yulan"
+					src="{{xx[0].image[7]}}"></image>
+				<image class="img" wx:if="{{xx[0].image[8] != null}}" data-text='{{xx[0].image[8]}}' bindtap="yulan"
+					src="{{xx[0].image[8]}}"></image>
+			</view>
+			<view class="t">
+				<text>{{xx[0].add}} {{xx[0].createTime}} </text></view>
+		</view>
+	</view>
+
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+			<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+				<view class="xx">
+					<image class="tou" src='{{xx[1].tou}}'></image>
+					<view>
+						<view style="font-size: small;">{{xx[1].name}}</view>
+						<view class="biaoshi">{{xx[1].biaoshi}}</view>
+					</view>
+					<view class="ic">
+						<v-book number="{{xx[1].num}}" />
+						<view>
+							<button data-text='{{xx[1]}}' open-type="share">分享</button></view>
+						<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[1].num}}" class=" icon1"
+						src="../../image/po.jpg">
+						</image>
+					</view>
+				</view>
+				<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+						data-text='{{xx[1].massage}}' selectable="true">{{xx[1].massage}}</text>
+				</view>
+				<view class="xx" data-text='{{xx[1].image}}' hover-class="none" hover-stop-propagation="false">
+					<image class="img" data-text='{{xx[1].image[0]}}' wx:if="{{xx[1].image[0] != null}}" bindtap="yulan"
+						src="{{xx[1].image[0]}}"></image>
+					<image class="img" data-text='{{xx[1].image[1]}}' wx:if="{{xx[1].image[1] != null}}" bindtap="yulan"
+						src="{{xx[1].image[1]}}"></image>
+					<image class="img" data-text='{{xx[1].image[2]}}' wx:if="{{xx[1].image[2] != null}}" bindtap="yulan"
+						src="{{xx[1].image[2]}}"></image>
+					<image class="img" wx:if="{{xx[1].image[3] != null}}" data-text='{{xx[1].image[3]}}' bindtap="yulan"
+						src="{{xx[1].image[3]}}"></image>
+					<image class="img" wx:if="{{xx[1].image[4] != null}}" data-text='{{xx[1].image[4]}}' bindtap="yulan"
+						src="{{xx[1].image[4]}}"></image>
+					<image class="img" wx:if="{{xx[1].image[5] != null}}" data-text='{{xx[1].image[5]}}' bindtap="yulan"
+						src="{{xx[1].image[5]}}"></image>
+					<image class="img" wx:if="{{xx[1].image[6] != null}}" data-text='{{xx[1].image[6]}}' bindtap="yulan"
+						src="{{xx[1].image[6]}}"></image>
+					<image class="img" wx:if="{{xx[1].image[7] != null}}" data-text='{{xx[1].image[7]}}' bindtap="yulan"
+						src="{{xx[1].image[7]}}"></image>
+					<image class="img" wx:if="{{xx[1].image[8] != null}}" data-text='{{xx[1].image[8]}}' bindtap="yulan"
+						src="{{xx[1].image[8]}}"></image>
+				</view>
+				<view class="t">
+					<text>{{xx[1].add}} {{xx[1].createTime}} </text></view>
+			</view>
+		</view>
+
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+			<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+				<view class="xx">
+					<image class="tou" src='{{xx[2].tou}}'></image>
+					<view>
+						<view style="font-size: small;">{{xx[2].name}}</view>
+						<view class="biaoshi">{{xx[2].biaoshi}}</view>
+					</view>
+					<view class="ic">
+						<v-book number="{{xx[2].num}}" />
+						<view>
+							<button data-text='{{xx[2]}}' open-type="share">分享</button></view>
+						<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[2].num}}" class=" icon1"
+							src="../../image/po.jpg">
+						</image>
+					</view>
+				</view>
+				<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+						data-text='{{xx[2].massage}}' selectable="true">{{xx[2].massage}}</text>
+				</view>
+				<view class="xx" data-text='{{xx[2].image}}' hover-class="none" hover-stop-propagation="false">
+					<image class="img" wx:if="{{xx[2].image[0] != null}}"data-text='{{xx[2].image[0]}}' bindtap="yulan"
+						src="{{xx[2].image[0]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[1] != null}}" data-text='{{xx[2].image[1]}}'bindtap="yulan"
+						src="{{xx[2].image[1]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[2] != null}}" data-text='{{xx[2].image[2]}}' bindtap="yulan"
+						src="{{xx[2].image[2]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[3] != null}}" data-text='{{xx[2].image[3]}}' bindtap="yulan"
+						src="{{xx[2].image[3]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[4] != null}}" data-text='{{xx[2].image[4]}}' bindtap="yulan"
+						src="{{xx[2].image[4]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[5] != null}}" data-text='{{xx[2].image[5]}}' bindtap="yulan"
+						src="{{xx[2].image[5]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[6] != null}}" data-text='{{xx[2].image[6]}}' bindtap="yulan"
+						src="{{xx[2].image[6]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[7] != null}}" data-text='{{xx[2].image[7]}}' bindtap="yulan"
+						src="{{xx[2].image[7]}}"></image>
+					<image class="img" wx:if="{{xx[2].image[8] != null}}" data-text='{{xx[2].image[8]}}' bindtap="yulan"
+						src="{{xx[2].image[8]}}"></image>
+				</view>
+				<view class="t">
+					<text>{{xx[2].add}} {{xx[2].createTime}} </text></view>
+			</view>
+		</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+				<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+					<view class="xx">
+						<image class="tou" src='{{xx[3].tou}}'></image>
+						<view>
+							<view style="font-size: small;">{{xx[3].name}}</view>
+							<view class="biaoshi">{{xx[3].biaoshi}}</view>
+						</view>
+						<view class="ic">
+							<v-book number="{{xx[3].num}}" />
+							<view>
+								<button data-text='{{xx[3]}}' open-type="share">分享</button></view>
+							<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[3].num}}" class=" icon1"
+							src="../../image/po.jpg">
+							</image>
+						</view>
+					</view>
+					<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+							data-text='{{xx[3].massage}}' selectable="true">{{xx[3].massage}}</text>
+					</view>
+					<view class="xx" data-text='{{xx[3].image}}' hover-class="none" hover-stop-propagation="false">
+						<image class="img" wx:if="{{xx[3].image[0] != null}}" data-text='{{xx[3].image[0]}}' bindtap="yulan"
+							src="{{xx[23].image[0]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[1] != null}}" data-text='{{xx[3].image[1]}}' bindtap="yulan"
+							src="{{xx[3].image[1]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[2] != null}}" data-text='{{xx[3].image[2]}}' bindtap="yulan"
+							src="{{xx[3].image[2]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[3] != null}}" data-text='{{xx[3].image[3]}}' bindtap="yulan"
+							src="{{xx[3].image[3]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[4] != null}}" data-text='{{xx[3].image[4]}}' bindtap="yulan"
+							src="{{xx[3].image[4]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[5] != null}}" data-text='{{xx[3].image[5]}}' bindtap="yulan"
+							src="{{xx[3].image[5]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[6] != null}}" data-text='{{xx[3].image[6]}}' bindtap="yulan"
+							src="{{xx[3].image[6]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[7] != null}}" data-text='{{xx[3].image[7]}}' bindtap="yulan"
+							src="{{xx[3].image[7]}}"></image>
+						<image class="img" wx:if="{{xx[3].image[8] != null}}" data-text='{{xx[3].image[8]}}' bindtap="yulan"
+							src="{{xx[3].image[8]}}"></image>
+					</view>
+					<view class="t">
+						<text>{{xx[3].add}} {{xx[3].createTime}} </text></view>
+				</view>
+			</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[4].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[4].name}}</view>
+				<view class="biaoshi">{{xx[4].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[4].num}}" />
+				<view>
+					<button data-text='{{xx[4]}}' open-type="share">分享</button></view>
+				<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[4].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[4].massage}}' selectable="true">{{xx[4].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[4].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[4].image[0] != null}}" data-text='{{xx[4].image[0]}}' bindtap="yulan"
+				src="{{xx[4].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[1] != null}}" data-text='{{xx[4].image[1]}}' bindtap="yulan"
+				src="{{xx[4].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[2] != null}}" data-text='{{xx[4].image[2]}}' bindtap="yulan"
+				src="{{xx[4].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[3] != null}}" data-text='{{xx[4].image[3]}}' bindtap="yulan"
+				src="{{xx[4].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[4] != null}}" data-text='{{xx[4].image[4]}}' bindtap="yulan"
+				src="{{xx[4].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[5] != null}}" data-text='{{xx[4].image[5]}}' bindtap="yulan"
+				src="{{xx[4].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[6] != null}}" data-text='{{xx[4].image[6]}}' bindtap="yulan"
+				src="{{xx[4].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[7] != null}}" data-text='{{xx[4].image[7]}}' bindtap="yulan"
+				src="{{xx[4].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[4].image[8] != null}}" data-text='{{xx[4].image[8]}}' bindtap="yulan"
+				src="{{xx[4].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[4].add}} {{xx[4].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[5].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[5].name}}</view>
+				<view class="biaoshi">{{xx[5].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[5].num}}" />
+				<view>
+					<button data-text='{{xx[5]}}' open-type="share">分享</button></view>
+				<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[5].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[5].massage}}' selectable="true">{{xx[5].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[5].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[5].image[0] != null}}" data-text='{{xx[5].image[0]}}' bindtap="yulan"
+				src="{{xx[5].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[1] != null}}" data-text='{{xx[5].image[1]}}' bindtap="yulan"
+				src="{{xx[5].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[2] != null}}" data-text='{{xx[5].image[2]}}' bindtap="yulan"
+				src="{{xx[5].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[3] != null}}" data-text='{{xx[5].image[3]}}' bindtap="yulan"
+				src="{{xx[5].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[4] != null}}" data-text='{{xx[5].image[4]}}' bindtap="yulan"
+				src="{{xx[5].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[5] != null}}" data-text='{{xx[5].image[5]}}' bindtap="yulan"
+				src="{{xx[5].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[6] != null}}" data-text='{{xx[5].image[6]}}' bindtap="yulan"
+				src="{{xx[5].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[7] != null}}" data-text='{{xx[5].image[7]}}' bindtap="yulan"
+				src="{{xx[5].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[5].image[8] != null}}" data-text='{{xx[5].image[8]}}' bindtap="yulan"
+				src="{{xx[5].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[5].add}} {{xx[5].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[6].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[6].name}}</view>
+				<view class="biaoshi">{{xx[6].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[6].num}}" />
+				<view>
+					<button data-text='{{xx[6]}}' open-type="share">分享</button></view>
+				<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[6].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[6].massage}}' selectable="true">{{xx[6].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[6].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[6].image[0] != null}}" data-text='{{xx[6].image[0]}}' bindtap="yulan"
+				src="{{xx[6].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[1] != null}}" data-text='{{xx[6].image[1]}}' bindtap="yulan"
+				src="{{xx[6].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[2] != null}}" data-text='{{xx[6].image[2]}}' bindtap="yulan"
+				src="{{xx[6].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[3] != null}}" data-text='{{xx[6].image[3]}}' bindtap="yulan"
+				src="{{xx[6].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[4] != null}}" data-text='{{xx[6].image[4]}}' bindtap="yulan"
+				src="{{xx[6].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[5] != null}}" data-text='{{xx[6].image[5]}}' bindtap="yulan"
+				src="{{xx[6].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[6] != null}}" data-text='{{xx[6].image[6]}}' bindtap="yulan"
+				src="{{xx[6].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[7] != null}}" data-text='{{xx[6].image[7]}}' bindtap="yulan"
+				src="{{xx[6].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[6].image[8] != null}}" data-text='{{xx[6].image[8]}}' bindtap="yulan"
+				src="{{xx[6].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[6].add}} {{xx[6].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[7].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[7].name}}</view>
+				<view class="biaoshi">{{xx[7].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[7].num}}" />
+				<view>
+					<button data-text='{{xx[7]}}' open-type="share">分享</button></view>
+				<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[7].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[7].massage}}' selectable="true">{{xx[7].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[7].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[7].image[0] != null}}" data-text='{{xx[7].image[0]}}' bindtap="yulan"
+				src="{{xx[7].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[1] != null}}" data-text='{{xx[7].image[1]}}' bindtap="yulan"
+				src="{{xx[7].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[2] != null}}" data-text='{{xx[7].image[2]}}' bindtap="yulan"
+				src="{{xx[7].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[3] != null}}" data-text='{{xx[7].image[3]}}' bindtap="yulan"
+				src="{{xx[7].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[4] != null}}" data-text='{{xx[7].image[4]}}' bindtap="yulan"
+				src="{{xx[7].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[5] != null}}" data-text='{{xx[7].image[5]}}' bindtap="yulan"
+				src="{{xx[7].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[6] != null}}" data-text='{{xx[7].image[6]}}' bindtap="yulan"
+				src="{{xx[7].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[7] != null}}" data-text='{{xx[7].image[7]}}' bindtap="yulan"
+				src="{{xx[7].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[7].image[8] != null}}" data-text='{{xx[7].image[8]}}' bindtap="yulan"
+				src="{{xx[7].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[7].add}} {{xx[7].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+			<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+				<view class="xx">
+					<image class="tou" src='{{xx[8].tou}}'></image>
+					<view>
+						<view style="font-size: small;">{{xx[8].name}}</view>
+						<view class="biaoshi">{{xx[8].biaoshi}}</view>
+					</view>
+					<view class="ic">
+						<v-book number="{{xx[8].num}}" />
+						<view>
+							<button data-text='{{xx[8]}}' open-type="share">分享</button></view>
+						<image style="height:80rpx;width: 80rpx;" bindtap="tonghua" data-text="{{xx[8].num}}" class=" icon1"
+							src="../../image/po.jpg">
+						</image>
+					</view>
+				</view>
+				<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+						data-text='{{xx[8].massage}}' selectable="true">{{xx[8].massage}}</text>
+				</view>
+				<view class="xx" data-text='{{xx[8].image}}' hover-class="none" hover-stop-propagation="false">
+					<image class="img" wx:if="{{xx[8].image[0] != null}}" data-text='{{xx[8].image[0]}}' bindtap="yulan"
+						src="{{xx[8].image[0]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[1] != null}}" data-text='{{xx[8].image[1]}}' bindtap="yulan"
+						src="{{xx[8].image[1]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[2] != null}}" data-text='{{xx[8].image[2]}}' bindtap="yulan"
+						src="{{xx[8].image[2]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[3] != null}}" data-text='{{xx[8].image[3]}}' bindtap="yulan"
+						src="{{xx[8].image[3]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[4] != null}}" data-text='{{xx[8].image[4]}}' bindtap="yulan"
+						src="{{xx[8].image[4]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[5] != null}}" data-text='{{xx[8].image[5]}}' bindtap="yulan"
+						src="{{xx[8].image[5]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[6] != null}}" data-text='{{xx[8].image[6]}}' bindtap="yulan"
+						src="{{xx[8].image[6]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[7] != null}}" data-text='{{xx[8].image[7]}}' bindtap="yulan"
+						src="{{xx[8].image[7]}}"></image>
+					<image class="img" wx:if="{{xx[8].image[8] != null}}" data-text='{{xx[8].image[8]}}' bindtap="yulan"
+						src="{{xx[8].image[8]}}"></image>
+				</view>
+				<view class="t">
+					<text>{{xx[8].add}} {{xx[8].createTime}} </text></view>
+			</view>
+		</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+			<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+				<view class="xx">
+					<image class="tou" src='{{xx[9].tou}}'></image>
+					<view>
+						<view style="font-size: small;">{{xx[9].name}}</view>
+						<view class="biaoshi">{{xx[9].biaoshi}}</view>
+					</view>
+					<view class="ic">
+						<v-book number="{{xx[9].num}}" />
+						<view>
+							<button data-text='{{xx[9]}}' open-type="share">分享</button></view>
+						<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[9].num}}" class=" icon1"
+						src="../../image/po.jpg">
+						</image>
+					</view>
+				</view>
+				<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+						data-text='{{xx[9].massage}}' selectable="true">{{xx[9].massage}}</text>
+				</view>
+				<view class="xx" data-text='{{xx[9].image}}' hover-class="none" hover-stop-propagation="false">
+					<image class="img" wx:if="{{xx[9].image[0] != null}}" data-text='{{xx[9].image[0]}}' bindtap="yulan"
+						src="{{xx[9].image[0]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[1] != null}}" data-text='{{xx[9].image[1]}}' bindtap="yulan"
+						src="{{xx[9].image[1]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[2] != null}}" data-text='{{xx[9].image[2]}}' bindtap="yulan"
+						src="{{xx[9].image[2]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[3] != null}}" data-text='{{xx[9].image[3]}}' bindtap="yulan"
+						src="{{xx[9].image[3]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[4] != null}}" data-text='{{xx[9].image[4]}}' bindtap="yulan"
+						src="{{xx[9].image[4]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[5] != null}}" data-text='{{xx[9].image[5]}}' bindtap="yulan"
+						src="{{xx[9].image[5]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[6] != null}}" data-text='{{xx[9].image[6]}}' bindtap="yulan"
+						src="{{xx[9].image[6]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[7] != null}}" data-text='{{xx[9].image[7]}}' bindtap="yulan"
+						src="{{xx[9].image[7]}}"></image>
+					<image class="img" wx:if="{{xx[9].image[8] != null}}" data-text='{{xx[9].image[8]}}' bindtap="yulan"
+						src="{{xx[9].image[8]}}"></image>
+				</view>
+				<view class="t">
+					<text>{{xx[9].add}} {{xx[9].createTime}} </text></view>
+			</view>
+		</view>
+		
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[10].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[10].name}}</view>
+				<view class="biaoshi">{{xx[10].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[10].num}}" />
+				<view>
+					<button data-text='{{xx[10]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[10].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[10].massage}}' selectable="true">{{xx[10].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[10].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[10].image[0] != null}}" data-text='{{xx[10].image[0]}}' bindtap="yulan"
+				src="{{xx[10].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[1] != null}}" data-text='{{xx[10].image[1]}}' bindtap="yulan"
+				src="{{xx[10].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[2] != null}}" data-text='{{xx[10].image[2]}}' bindtap="yulan"
+				src="{{xx[10].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[3] != null}}" data-text='{{xx[10].image[3]}}' bindtap="yulan"
+				src="{{xx[10].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[4] != null}}" data-text='{{xx[10].image[4]}}' bindtap="yulan"
+				src="{{xx[10].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[5] != null}}" data-text='{{xx[10].image[5]}}' bindtap="yulan"
+				src="{{xx[10].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[6] != null}}" data-text='{{xx[10].image[6]}}' bindtap="yulan"
+				src="{{xx[10].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[7] != null}}" data-text='{{xx[10].image[7]}}' bindtap="yulan"
+				src="{{xx[10].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[10].image[8] != null}}" data-text='{{xx[10].image[8]}}' bindtap="yulan"
+				src="{{xx[10].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[10].add}} {{xx[10].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[11].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[11].name}}</view>
+				<view class="biaoshi">{{xx[11].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[11].num}}" />
+				<view>
+					<button data-text='{{xx[11]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[11].num}}" class=" icon1"
+				src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[11].massage}}' selectable="true">{{xx[11].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[11].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[11].image[0] != null}}" data-text='{{xx[11].image[0]}}' bindtap="yulan"
+				src="{{xx[11].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[1] != null}}" data-text='{{xx[11].image[1]}}' bindtap="yulan"
+				src="{{xx[11].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[2] != null}}" data-text='{{xx[11].image[2]}}' bindtap="yulan"
+				src="{{xx[11].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[3] != null}}" data-text='{{xx[11].image[3]}}' bindtap="yulan"
+				src="{{xx[11].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[4] != null}}" data-text='{{xx[11].image[4]}}' bindtap="yulan"
+				src="{{xx[11].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[5] != null}}" data-text='{{xx[11].image[5]}}' bindtap="yulan"
+				src="{{xx[11].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[6] != null}}" data-text='{{xx[11].image[6]}}' bindtap="yulan"
+				src="{{xx[11].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[7] != null}}" data-text='{{xx[11].image[7]}}' bindtap="yulan"
+				src="{{xx[11].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[11].image[8] != null}}" data-text='{{xx[11].image[8]}}' bindtap="yulan"
+				src="{{xx[11].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[11].add}} {{xx[11].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[12].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[12].name}}</view>
+				<view class="biaoshi">{{xx[12].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[12].num}}" />
+				<view>
+					<button data-text='{{xx[12]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[12].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[12].massage}}' selectable="true">{{xx[12].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[12].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[12].image[0] != null}}" data-text='{{xx[12].image[0]}}' bindtap="yulan"
+				src="{{xx[12].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[1] != null}}" data-text='{{xx[12].image[1]}}' bindtap="yulan"
+				src="{{xx[12].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[2] != null}}" data-text='{{xx[12].image[2]}}' bindtap="yulan"
+				src="{{xx[12].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[3] != null}}" data-text='{{xx[12].image[3]}}' bindtap="yulan"
+				src="{{xx[12].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[4] != null}}" data-text='{{xx[12].image[4]}}' bindtap="yulan"
+				src="{{xx[12].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[5] != null}}" data-text='{{xx[12].image[5]}}' bindtap="yulan"
+				src="{{xx[12].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[6] != null}}" data-text='{{xx[12].image[6]}}' bindtap="yulan"
+				src="{{xx[12].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[7] != null}}" data-text='{{xx[12].image[7]}}' bindtap="yulan"
+				src="{{xx[12].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[12].image[8] != null}}" data-text='{{xx[12].image[8]}}' bindtap="yulan"
+				src="{{xx[12].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[12].add}} {{xx[12].createTime}} </text></view>
+	</view>
+</view>
+
+	<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+		<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+			<view class="xx">
+				<image class="tou" src='{{xx[13].tou}}'></image>
+				<view>
+					<view style="font-size: small;">{{xx[13].name}}</view>
+					<view class="biaoshi">{{xx[13].biaoshi}}</view>
+				</view>
+				<view class="ic">
+					<v-book number="{{xx[13].num}}" />
+					<view>
+						<button data-text='{{xx[13]}}' open-type="share">分享</button></view>
+					<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[13].num}}" class=" icon1"
+					src="../../image/po.jpg">
+					</image>
+				</view>
+			</view>
+			<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+					data-text='{{xx[13].massage}}' selectable="true">{{xx[13].massage}}</text>
+			</view>
+			<view class="xx" data-text='{{xx[13].image}}' hover-class="none" hover-stop-propagation="false">
+				<image class="img" wx:if="{{xx[13].image[0] != null}}" data-text='{{xx[13].image[0]}}' bindtap="yulan"
+					src="{{xx[13].image[0]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[1] != null}}" data-text='{{xx[13].image[1]}}' bindtap="yulan"
+					src="{{xx[13].image[1]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[2] != null}}" data-text='{{xx[13].image[2]}}' bindtap="yulan"
+					src="{{xx[13].image[2]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[3] != null}}" data-text='{{xx[13].image[3]}}' bindtap="yulan"
+					src="{{xx[13].image[3]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[4] != null}}" data-text='{{xx[13].image[4]}}' bindtap="yulan"
+					src="{{xx[13].image[4]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[5] != null}}" data-text='{{xx[13].image[5]}}' bindtap="yulan"
+					src="{{xx[13].image[5]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[6] != null}}" data-text='{{xx[13].image[6]}}' bindtap="yulan"
+					src="{{xx[13].image[6]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[7] != null}}" data-text='{{xx[13].image[7]}}' bindtap="yulan"
+					src="{{xx[13].image[7]}}"></image>
+				<image class="img" wx:if="{{xx[13].image[8] != null}}" data-text='{{xx[13].image[8]}}' bindtap="yulan"
+					src="{{xx[13].image[8]}}"></image>
+			</view>
+			<view class="t">
+				<text>{{xx[13].add}} {{xx[13].createTime}} </text></view>
+		</view>
+	</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[14].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[14].name}}</view>
+				<view class="biaoshi">{{xx[14].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[14].num}}" />
+				<view>
+					<button data-text='{{xx[14]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[14].num}}" class=" icon1"
+				src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[14].massage}}' selectable="true">{{xx[14].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[14].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[14].image[0] != null}}" data-text='{{xx[14].image[0]}}' bindtap="yulan"
+				src="{{xx[14].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[1] != null}}" data-text='{{xx[14].image[1]}}' bindtap="yulan"
+				src="{{xx[14].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[2] != null}}" data-text='{{xx[14].image[2]}}' bindtap="yulan"
+				src="{{xx[14].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[3] != null}}" data-text='{{xx[14].image[3]}}' bindtap="yulan"
+				src="{{xx[14].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[4] != null}}" data-text='{{xx[14].image[4]}}' bindtap="yulan"
+				src="{{xx[14].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[5] != null}}" data-text='{{xx[14].image[5]}}' bindtap="yulan"
+				src="{{xx[14].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[6] != null}}" data-text='{{xx[14].image[6]}}' bindtap="yulan"
+				src="{{xx[14].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[7] != null}}" data-text='{{xx[14].image[7]}}' bindtap="yulan"
+				src="{{xx[14].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[14].image[8] != null}}" data-text='{{xx[14].image[8]}}' bindtap="yulan"
+				src="{{xx[14].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[14].add}} {{xx[14].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[15].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[15].name}}</view>
+				<view class="biaoshi">{{xx[15].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[15].num}}" />
+				<view>
+					<button data-text='{{xx[15]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[15].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[15].massage}}' selectable="true">{{xx[15].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[15].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[15].image[0] != null}}" data-text='{{xx[15].image[0]}}' bindtap="yulan"
+				src="{{xx[15].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[1] != null}}" data-text='{{xx[15].image[1]}}' bindtap="yulan"
+				src="{{xx[15].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[2] != null}}" data-text='{{xx[15].image[2]}}' bindtap="yulan"
+				src="{{xx[15].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[3] != null}}" data-text='{{xx[15].image[3]}}' bindtap="yulan"
+				src="{{xx[15].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[4] != null}}" data-text='{{xx[15].image[4]}}' bindtap="yulan"
+				src="{{xx[15].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[5] != null}}" data-text='{{xx[15].image[5]}}' bindtap="yulan"
+				src="{{xx[15].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[6] != null}}" data-text='{{xx[15].image[6]}}' bindtap="yulan"
+				src="{{xx[15].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[7] != null}}" data-text='{{xx[15].image[7]}}' bindtap="yulan"
+				src="{{xx[15].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[15].image[8] != null}}" data-text='{{xx[15].image[8]}}' bindtap="yulan"
+				src="{{xx[15].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[15].add}} {{xx[15].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[16].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[16].name}}</view>
+				<view class="biaoshi">{{xx[16].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[16].num}}" />
+				<view>
+					<button data-text='{{xx[16]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[16].num}}" class=" icon1"
+				src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[16].massage}}' selectable="true">{{xx[16].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[16].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[16].image[0] != null}}" data-text='{{xx[16].image[0]}}' bindtap="yulan"
+				src="{{xx[16].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[1] != null}}" data-text='{{xx[16].image[1]}}' bindtap="yulan"
+				src="{{xx[16].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[2] != null}}" data-text='{{xx[16].image[2]}}' bindtap="yulan"
+				src="{{xx[16].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[3] != null}}" data-text='{{xx[16].image[3]}}' bindtap="yulan"
+				src="{{xx[16].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[4] != null}}" data-text='{{xx[16].image[4]}}' bindtap="yulan"
+				src="{{xx[16].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[5] != null}}" data-text='{{xx[16].image[5]}}' bindtap="yulan"
+				src="{{xx[16].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[6] != null}}" data-text='{{xx[16].image[6]}}' bindtap="yulan"
+				src="{{xx[16].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[7] != null}}" data-text='{{xx[16].image[7]}}' bindtap="yulan"
+				src="{{xx[16].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[16].image[8] != null}}" data-text='{{xx[16].image[8]}}' bindtap="yulan"
+				src="{{xx[16].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[16].add}} {{xx[16].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[17].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[17].name}}</view>
+				<view class="biaoshi">{{xx[17].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[17].num}}" />
+				<view>
+					<button data-text='{{xx[17]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[17].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[17].massage}}' selectable="true">{{xx[17].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[17].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[17].image[0] != null}}" data-text='{{xx[17].image[0]}}' bindtap="yulan"
+				src="{{xx[17].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[1] != null}}" data-text='{{xx[17].image[1]}}' bindtap="yulan"
+				src="{{xx[17].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[2] != null}}" data-text='{{xx[17].image[2]}}' bindtap="yulan"
+				src="{{xx[17].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[3] != null}}" data-text='{{xx[17].image[3]}}' bindtap="yulan"
+				src="{{xx[17].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[4] != null}}" data-text='{{xx[17].image[4]}}' bindtap="yulan"
+				src="{{xx[17].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[5] != null}}" data-text='{{xx[17].image[5]}}' bindtap="yulan"
+				src="{{xx[17].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[6] != null}}" data-text='{{xx[17].image[6]}}' bindtap="yulan"
+				src="{{xx[17].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[7] != null}}" data-text='{{xx[17].image[7]}}' bindtap="yulan"
+				src="{{xx[17].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[17].image[8] != null}}" data-text='{{xx[17].image[8]}}' bindtap="yulan"
+				src="{{xx[17].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[17].add}} {{xx[17].createTime}} </text></view>
+	</view>
+</view>
+
+	<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+		<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+			<view class="xx">
+				<image class="tou" src='{{xx[18].tou}}'></image>
+				<view>
+					<view style="font-size: small;">{{xx[18].name}}</view>
+					<view class="biaoshi">{{xx[18].biaoshi}}</view>
+				</view>
+				<view class="ic">
+					<v-book number="{{xx[18].num}}" />
+					<view>
+						<button data-text='{{xx[18]}}' open-type="share">分享</button></view>
+					<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[18].num}}" class=" icon1"
+						src="../../image/po.jpg">
+					</image>
+				</view>
+			</view>
+			<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+					data-text='{{xx[18].massage}}' selectable="true">{{xx[18].massage}}</text>
+			</view>
+			<view class="xx" data-text='{{xx[18].image}}' hover-class="none" hover-stop-propagation="false">
+				<image class="img" wx:if="{{xx[18].image[0] != null}}" data-text='{{xx[18].image[0]}}' bindtap="yulan"
+					src="{{xx[18].image[0]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[1] != null}}" data-text='{{xx[18].image[1]}}' bindtap="yulan"
+					src="{{xx[18].image[1]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[2] != null}}" data-text='{{xx[18].image[2]}}' bindtap="yulan"
+					src="{{xx[18].image[2]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[3] != null}}" data-text='{{xx[18].image[3]}}' bindtap="yulan"
+					src="{{xx[18].image[3]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[4] != null}}" data-text='{{xx[18].image[4]}}' bindtap="yulan"
+					src="{{xx[18].image[4]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[5] != null}}" data-text='{{xx[18].image[5]}}' bindtap="yulan"
+					src="{{xx[18].image[5]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[6] != null}}" data-text='{{xx[18].image[6]}}' bindtap="yulan"
+					src="{{xx[18].image[6]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[7] != null}}" data-text='{{xx[18].image[7]}}' bindtap="yulan"
+					src="{{xx[18].image[7]}}"></image>
+				<image class="img" wx:if="{{xx[18].image[8] != null}}" data-text='{{xx[18].image[8]}}' bindtap="yulan"
+					src="{{xx[18].image[8]}}"></image>
+			</view>
+			<view class="t">
+				<text>{{xx[18].add}} {{xx[18].createTime}} </text></view>
+		</view>
+	</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[19].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[19].name}}</view>
+				<view class="biaoshi">{{xx[19].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[19].num}}" />
+				<view>
+					<button data-text='{{xx[19]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[19].num}}" class=" icon1"
+				src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[19].massage}}' selectable="true">{{xx[19].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[19].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[19].image[0] != null}}" data-text='{{xx[19].image[0]}}' bindtap="yulan"
+				src="{{xx[19].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[1] != null}}" data-text='{{xx[19].image[1]}}' bindtap="yulan"
+				src="{{xx[19].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[2] != null}}" data-text='{{xx[19].image[2]}}' bindtap="yulan"
+				src="{{xx[19].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[3] != null}}" data-text='{{xx[19].image[3]}}' bindtap="yulan"
+				src="{{xx[19].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[4] != null}}" data-text='{{xx[19].image[4]}}' bindtap="yulan"
+				src="{{xx[19].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[5] != null}}" data-text='{{xx[19].image[5]}}' bindtap="yulan"
+				src="{{xx[19].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[6] != null}}" data-text='{{xx[19].image[6]}}' bindtap="yulan"
+				src="{{xx[19].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[7] != null}}" data-text='{{xx[19].image[7]}}' bindtap="yulan"
+				src="{{xx[19].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[19].image[8] != null}}" data-text='{{xx[19].image[8]}}' bindtap="yulan"
+				src="{{xx[19].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[19].add}} {{xx[19].createTime}} </text></view>
+	</view>
+</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+		<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+			<view class="xx">
+				<image class="tou" src='{{xx[20].tou}}'></image>
+				<view>
+					<view style="font-size: small;">{{xx[20].name}}</view>
+					<view class="biaoshi">{{xx[20].biaoshi}}</view>
+				</view>
+				<view class="ic">
+					<v-book number="{{xx[20].num}}" />
+					<view>
+						<button data-text='{{xx[20]}}' open-type="share">分享</button></view>
+					<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[20].num}}" class=" icon1"
+						src="../../image/po.jpg">
+					</image>
+				</view>
+			</view>
+			<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+					data-text='{{xx[20].massage}}' selectable="true">{{xx[20].massage}}</text>
+			</view>
+			<view class="xx" data-text='{{xx[20].image}}' hover-class="none" hover-stop-propagation="false">
+				<image class="img" wx:if="{{xx[20].image[0] != null}}" data-text='{{xx[20].image[0]}}' bindtap="yulan"
+					src="{{xx[20].image[0]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[1] != null}}" data-text='{{xx[20].image[1]}}' bindtap="yulan"
+					src="{{xx[20].image[1]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[2] != null}}" data-text='{{xx[20].image[2]}}' bindtap="yulan"
+					src="{{xx[20].image[2]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[3] != null}}" data-text='{{xx[20].image[3]}}' bindtap="yulan"
+					src="{{xx[20].image[3]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[4] != null}}" data-text='{{xx[20].image[4]}}' bindtap="yulan"
+					src="{{xx[20].image[4]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[5] != null}}" data-text='{{xx[20].image[5]}}' bindtap="yulan"
+					src="{{xx[20].image[5]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[6] != null}}" data-text='{{xx[20].image[6]}}' bindtap="yulan"
+					src="{{xx[20].image[6]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[7] != null}}" data-text='{{xx[20].image[7]}}' bindtap="yulan"
+					src="{{xx[20].image[7]}}"></image>
+				<image class="img" wx:if="{{xx[20].image[8] != null}}" data-text='{{xx[20].image[8]}}' bindtap="yulan"
+					src="{{xx[20].image[8]}}"></image>
+			</view>
+			<view class="t">
+				<text>{{xx[20].add}} {{xx[20].createTime}} </text></view>
+		</view>
+	</view>
+
+<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+	<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+		<view class="xx">
+			<image class="tou" src='{{xx[21].tou}}'></image>
+			<view>
+				<view style="font-size: small;">{{xx[21].name}}</view>
+				<view class="biaoshi">{{xx[21].biaoshi}}</view>
+			</view>
+			<view class="ic">
+				<v-book number="{{xx[21].num}}" />
+				<view>
+					<button data-text='{{xx[21]}}' open-type="share">分享</button></view>
+				<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[21].num}}" class=" icon1"
+					src="../../image/po.jpg">
+				</image>
+			</view>
+		</view>
+		<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+				data-text='{{xx[21].massage}}' selectable="true">{{xx[21].massage}}</text>
+		</view>
+		<view class="xx" data-text='{{xx[21].image}}' hover-class="none" hover-stop-propagation="false">
+			<image class="img" wx:if="{{xx[21].image[0] != null}}" data-text='{{xx[21].image[0]}}' bindtap="yulan"
+				src="{{xx[21].image[0]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[1] != null}}" data-text='{{xx[21].image[1]}}' bindtap="yulan"
+				src="{{xx[21].image[1]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[2] != null}}" data-text='{{xx[21].image[2]}}' bindtap="yulan"
+				src="{{xx[21].image[2]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[3] != null}}" data-text='{{xx[21].image[3]}}' bindtap="yulan"
+				src="{{xx[21].image[3]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[4] != null}}" data-text='{{xx[21].image[4]}}' bindtap="yulan"
+				src="{{xx[21].image[4]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[5] != null}}" data-text='{{xx[21].image[5]}}' bindtap="yulan"
+				src="{{xx[21].image[5]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[6] != null}}" data-text='{{xx[21].image[6]}}' bindtap="yulan"
+				src="{{xx[21].image[6]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[7] != null}}" data-text='{{xx[21].image[7]}}' bindtap="yulan"
+				src="{{xx[21].image[7]}}"></image>
+			<image class="img" wx:if="{{xx[21].image[8] != null}}" data-text='{{xx[21].image[8]}}' bindtap="yulan"
+				src="{{xx[21].image[8]}}"></image>
+		</view>
+		<view class="t">
+			<text>{{xx[21].add}} {{xx[21].createTime}} </text></view>
+	</view>
+</view>
+
+	<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+		<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+			<view class="xx">
+				<image class="tou" src='{{xx[22].tou}}'></image>
+				<view>
+					<view style="font-size: small;">{{xx[22].name}}</view>
+					<view class="biaoshi">{{xx[22].biaoshi}}</view>
+				</view>
+				<view class="ic">
+					<v-book number="{{xx[22].num}}" />
+					<view>
+						<button data-text='{{xx[22]}}' open-type="share">分享</button></view>
+					<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[22].num}}" class=" icon1"
+						src="../../image/po.jpg">
+					</image>
+				</view>
+			</view>
+			<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+					data-text='{{xx[22].massage}}' selectable="true">{{xx[22].massage}}</text>
+			</view>
+			<view class="xx" data-text='{{xx[22].image}}' hover-class="none" hover-stop-propagation="false">
+				<image class="img" wx:if="{{xx[22].image[0] != null}}" data-text='{{xx[22].image[0]}}' bindtap="yulan"
+					src="{{xx[22].image[0]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[1] != null}}" data-text='{{xx[22].image[1]}}' bindtap="yulan"
+					src="{{xx[22].image[1]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[2] != null}}" data-text='{{xx[22].image[2]}}' bindtap="yulan"
+					src="{{xx[22].image[2]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[3] != null}}" data-text='{{xx[22].image[3]}}' bindtap="yulan"
+					src="{{xx[22].image[3]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[4] != null}}" data-text='{{xx[22].image[4]}}' bindtap="yulan"
+					src="{{xx[22].image[4]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[5] != null}}" data-text='{{xx[22].image[5]}}' bindtap="yulan"
+					src="{{xx[22].image[5]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[6] != null}}" data-text='{{xx[22].image[6]}}' bindtap="yulan"
+					src="{{xx[22].image[6]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[7] != null}}" data-text='{{xx[22].image[7]}}' bindtap="yulan"
+					src="{{xx[22].image[7]}}"></image>
+				<image class="img" wx:if="{{xx[22].image[8] != null}}" data-text='{{xx[22].image[8]}}' bindtap="yulan"
+					src="{{xx[22].image[8]}}"></image>
+			</view>
+			<view class="t">
+				<text>{{xx[22].add}} {{xx[22].createTime}} </text></view>
+		</view>
+	</view>
+
+	<view class="tiao" hover-class="none" hover-stop-propagation="false">
+
+		<view hidden="{{zuixin}}" class="mp" hover-class="none" hover-stop-propagation="false">
+			<view class="xx">
+				<image class="tou" src='{{xx[23].tou}}'></image>
+				<view>
+					<view style="font-size: small;">{{xx[23].name}}</view>
+					<view class="biaoshi">{{xx[23].biaoshi}}</view>
+				</view>
+				<view class="ic">
+					<v-book number="{{xx[23].num}}" />
+					<view>
+						<button data-text='{{xx[23]}}' open-type="share">分享</button></view>
+					<image style="height:90rpx;width: 90rpx;" bindtap="tonghua" data-text="{{xx[23].num}}" class=" icon1"
+						src="../../image/po.jpg">
+					</image>
+				</view>
+			</view>
+			<view selectable="true" class=" info{{cha===1?1:''}}" bindtap="chakan"><text bindlongpress="copy"
+					data-text='{{xx[23].massage}}' selectable="true">{{xx[23].massage}}</text>
+			</view>
+			<view class="xx" data-text='{{xx[23].image}}' hover-class="none" hover-stop-propagation="false">
+				<image class="img" wx:if="{{xx[23].image[0] != null}}" data-text='{{xx[23].image[0]}}' bindtap="yulan"
+					src="{{xx[23].image[0]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[1] != null}}" data-text='{{xx[23].image[1]}}' bindtap="yulan"
+					src="{{xx[23].image[1]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[2] != null}}" data-text='{{xx[23].image[2]}}' bindtap="yulan"
+					src="{{xx[23].image[2]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[3] != null}}" data-text='{{xx[23].image[3]}}' bindtap="yulan"
+					src="{{xx[23].image[3]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[4] != null}}" data-text='{{xx[23].image[4]}}' bindtap="yulan"
+					src="{{xx[23].image[4]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[5] != null}}" data-text='{{xx[23].image[5]}}' bindtap="yulan"
+					src="{{xx[23].image[5]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[6] != null}}" data-text='{{xx[23].image[6]}}' bindtap="yulan"
+					src="{{xx[23].image[6]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[7] != null}}" data-text='{{xx[23].image[7]}}' bindtap="yulan"
+					src="{{xx[23].image[7]}}"></image>
+				<image class="img" wx:if="{{xx[23].image[8] != null}}" data-text='{{xx[23].image[8]}}' bindtap="yulan"
+					src="{{xx[23].image[8]}}"></image>
+			</view>
+			<view class="t">
+				<text>{{xx[23].add}} {{xx[23].createTime}} </text></view>
+		</view>
+	</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</van-tab>
+
+	<van-tab title="笑话段子" bind:click="xiaohua" >
+<view style="border-bottom: 1px solid #70bcf6;"  wx:for="{{xiaohua}}" wx:key="key" hover-stop-propagation="false">
+	
+
+		<van-divider textColor=" 	#000000" contentPosition="center">{{item.ms}}</van-divider>
+	</view></van-tab>
+</van-tabs>
+	
+	
+</view>
+
+
+	

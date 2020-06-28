@@ -1,0 +1,74 @@
+ <view class="ceshi">
+ 	<view class="ceshi1">
+
+
+
+ 		<van-cell-group>
+ 			<van-field value="{{ message }}" bind:change="input1" type="textarea" placeholder="请输入您要发布的内容" autosize
+ 				border="{{ false }}" />
+ 		</van-cell-group>
+ 	</view>
+ 	<view>
+
+ 		<text class="word-class">选择你要上传的图片：</text>
+ 		<!--以下为图片选择-->
+ 		<view class="img_box">
+ 			<view class="imgs" wx:for="{{tempFilePaths}}" wx:key="index">
+ 				<image src='{{item}}' bindlongpress="DeleteImg" bindtap="PreviewImg" data-index="{{index}}"
+ 					mode='widthFix' />
+ 			</view>
+ 			<view class="imgs">
+ 				<view class="images" bindtap="ChooseImg">
+
+ 					<image
+ 						src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2449171074,3989439360&fm=26&gp=0.jpg'
+ 						mode='widthFix' />
+ 				</view>
+ 			</view>
+ 		</view>
+
+
+
+ 	</view>
+	<van-cell-group>
+	<van-field value="{{ username }}" required clearable label="您的电话" type="number" icon="question-o" placeholder="请输入"
+		bind:click-icon="onClickIcon" bind:change="input2"/>
+
+
+	
+<view class="dizhi">
+
+	<van-cell-group>
+		<van-field value="{{ username }}" required clearable label="位置信息"placeholder="{{markers[0].title}}" disabled="ture" bind:click-icon="" />
+	</van-cell-group>
+	<form bindsubmit="formSubmit">
+
+	<button size="default" bindtap="UploadBtntap" type="warn"
+		form-type="submit">定位</button>
+
+	 
+	</form>
+
+</view>
+
+
+		
+
+</van-cell-group>
+
+	
+
+
+
+	
+
+
+
+
+  
+</view>
+<view >
+<button type="primary" type="warn" bindtap="primary">发布</button>
+
+
+</view>

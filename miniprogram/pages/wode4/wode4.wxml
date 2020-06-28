@@ -1,0 +1,6 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="求职招聘"></van-tab>
+  <van-tab title="居家生活"></van-tab>
+  <van-tab title="二手交易"></van-tab>
+  <van-tab title="批发采购"></van-tab>
+</van-tabs>

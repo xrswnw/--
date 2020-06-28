@@ -1,0 +1,19 @@
+<button bindtap="delete"  >
+删除信息
+</button>
+<button bindtap="down"  >
+下载数据</button>
+
+<button bindtap="up"  >
+增加数据</button>
+<button bindtap="updown">
+	上传照片</button>
+	<button bindtap="msg">
+		检查</button>
+		<input type="text"/>
+		<input bindinput="ceshi" class="weui-input" auto-focus placeholder="将会获取焦点" />
+
+
+
+
+
